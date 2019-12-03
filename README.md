@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+A Responsive site is fluid and always changes the design on the page in real time as you make the size of the screen smaller or bigger, whereas an Adaptive site is one that has preset layouts at different assigned pixel sizes, typically there are set layouts for desktop, tablet, and mobile.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first approach to web design means you make the website with mobile devices in mind first and then scale it to meet the sizes of other, larger devices later. Whereas a desktop first approach means you make the site for desktop first and then scale it later for smaller screen devices. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Using font-size of 62.5% is useful for using rems because it sets the default font-size to 10px so scaling font anywhere on the page using rems would only require it to be relative to that 10px. So say you wanted the font of certain text to be 16px, all you would have to do is set it to 1.6 rem.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a scripting language that is then converted into regular CSS that helps make the CSS cleaner and easier to read. It is great for setting up variables and “mix-ins” that help eliminate, otherwise, necessary code. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite thing about preprocessing is how clean and short it can make your code, making it easier to read later. The thing I find hardest about preprocessing is using variables inside other variables and only because I feel that it could real confusing if you have too many variables mixed in at once.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
